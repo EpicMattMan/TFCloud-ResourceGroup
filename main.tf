@@ -10,7 +10,7 @@ provider "azurerm" {
   
 }
 
-resource "azurerm_resource_group" = "tfcloud-rg" {
+resource "azurerm_resource_group" "tfcloud-rg" {
   name =var.RGName
   location = var.location
 }
