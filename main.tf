@@ -12,6 +12,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "tfcloud-rg" {
-  name =var.RGName
+  name =var.rgName
   location = var.location
 }
