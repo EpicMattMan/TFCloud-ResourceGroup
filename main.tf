@@ -1,3 +1,5 @@
+export TF_VAR_azurermVersion = "~>5.4.0"
+
 provider "azurerm" {
   version = $azurermVersion
   
