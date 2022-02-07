@@ -1,4 +1,4 @@
-variable "RGName" {
+variable "rgName" {
  type = string 
 }
 
