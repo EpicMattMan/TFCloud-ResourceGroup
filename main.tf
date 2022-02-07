@@ -1,7 +1,6 @@
-export TF_VAR_azurermVersion = "~>5.4.0"
 
 provider "azurerm" {
-  version = $azurermVersion
+  version =  "~>5.4.0"
   
   subscription_id = var.subscriptionID
   client_id = var.clientID
